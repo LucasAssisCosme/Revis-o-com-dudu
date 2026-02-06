@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 20px;
+}
+
+.lista-quadrados{
+    display: flex;
+    gap: 4px;
+
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+
+}
+
+.par {
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.impar {
+    background-color: black;
+    color: aliceblue;
+}
